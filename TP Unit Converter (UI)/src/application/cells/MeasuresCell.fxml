@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.cells.MeasuresCellController">
+   <children>
+      <Label fx:id="label" alignment="CENTER_RIGHT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0" text="name" textFill="#010101">
+         <graphic>
+            <ImageView fx:id="iconView" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons/speed-32.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+   </children>
+</HBox>
